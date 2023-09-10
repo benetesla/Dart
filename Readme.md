@@ -20,14 +20,6 @@ Nesta seção, listarei alguns dos tópicos que estudei e as habilidades que adq
 - [X] Programação assíncrona com `async` e `await`.
 - [X] Desenvolvimento de aplicativos móveis com Flutter.
 
-## Projetos
-
-Aqui estão alguns dos projetos que desenvolvi como parte dos meus estudos em Dart:
-
-1. [Calculadora Simples](/calculadora-dart): Uma calculadora de console simples que realiza operações matemáticas básicas.
-2. [Lista de Tarefas](/lista-de-tarefas-flutter): Um aplicativo de lista de tarefas desenvolvido com o framework Flutter.
-3. [Conversor de Moedas](/conversor-de-moedas-flutter): Um aplicativo que converte moedas usando Flutter e uma API externa.
-
 ## Recursos
 
 - [Site Oficial do Dart](https://dart.dev/): A documentação oficial do Dart é um ótimo lugar para começar.
