@@ -1,0 +1,45 @@
+void main(){
+  print("Operadores Aritmeticos( + - * / ~/ %), incremento( += ++), e assignação (= ??) \n");
+  var peso = 10;
+  peso = peso +  5;
+  print(peso);
+  peso += 5;
+  print("Estou usando o incremento $peso");
+  peso++;
+  print(peso);
+  var a, b, c, d , e, f;
+  a = 3;
+  b= ++a;
+  print("a : $a b: $b");
+  c = ++a / --b;
+  print("a : $a b: $b");
+  print(c);
+  d = a ~/ b;//retorna um numero inteiro
+  print('c: $c d: $d');
+  var valorA =8, valorB = 2;
+  print(' Ex.: 8 ~/ 2 .: ${valorA ~/ valorB}');
+  e = 1;
+  f = e;
+  f = null;
+  f ??= ++e;
+  print("O valor de F é .: $f e o valor de e é .: $e");
+  var x, y, z;
+  z = 1;
+  x = y ?? z;
+  print(x);
+  var nome = null;
+  print('nome: ${nome ?? 'Benevanio'}\n');
+  var numero = 13;
+  var par = numero % 2 == 0;
+  var impar = numero % 2 != 0;
+  var negativo = numero < 0;
+  print(par);
+  print(impar);
+  print(negativo);
+  var multiplo = 3;
+  print(" numero: $numero é multiplo de $multiplo ? ${numero % multiplo == 0}");
+  int divendo =19, divisor = 4;
+  double quociente = divendo / divisor;
+  int resto = divendo %  divisor;
+  print("O resto da divisão é $resto e o quociente da divisão é $quociente \n");
+}
