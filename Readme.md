@@ -16,6 +16,9 @@ Nesta seção, listarei alguns dos tópicos que estudei e as habilidades que adq
 - [X] Funções e classes.
 - [X] Programação orientada a objetos em Dart.
 - [X] Encapsulamento
+- [X] Modificadores
+- [X] Heranças
+- [X] Singletons
 - [X] Heranças
 - [X] interfaces
 - [X] mixins
