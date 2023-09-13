@@ -15,6 +15,10 @@ Nesta seção, listarei alguns dos tópicos que estudei e as habilidades que adq
 - [X] Estruturas de controle de fluxo (condicionais e loops).
 - [X] Funções e classes.
 - [X] Programação orientada a objetos em Dart.
+- [X] Encapsulamento
+- [X] Heranças
+- [X] interfaces
+- [X] mixins
 - [X] Manipulação de listas e mapas.
 - [X] Tratamento de exceções.
 - [X] Programação assíncrona com `async` e `await`.
