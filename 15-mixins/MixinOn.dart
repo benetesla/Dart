@@ -1,4 +1,4 @@
-import 'dart:ffi';
+
 
 abstract class Artista {
   void acao() {
@@ -27,18 +27,7 @@ abstract class Acao {
   void executar();
 }
 
-class Musico extends Artista with Dancarino, Cantor implements Acao {
-  @override
-  void acao() => print("Compoe");
-
-  @override
-  void executar() {
-    super.acao();
-    acao();
-  }
-}
 
 void main() {
-  var musico = Musico();
-  musico.executar();
+  
 }
