@@ -43,10 +43,16 @@ ListWheres(){
   List<int> idades = [23,34,46,56];
   print(idades.where((element) => element is int));
 }
+ListReduce(){
+  List<int> numerosPares = List.generate(6, (index) => index * 2);
+  int resultado = numerosPares.reduce((value, element) => value + element);
+  print("O resultado é $resultado");
+}
 void main() {
   listaForeach();
   ListExpand();
   listMap();
   ListEvery();
   ListWheres();
+  ListReduce();
 }
