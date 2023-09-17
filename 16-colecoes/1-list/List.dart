@@ -31,23 +31,25 @@ listMap() {
   List<String> Frutas = ["Morango", "Banana", "Pera"];
   List<String> frutasMapeados = Frutas.map((e) => '$e  é uma fruta').toList();
   print("Frutas mapeadas: $frutasMapeados");
-  
 }
-ListEvery(){
-  List<int> inteiros =[0,1,2,3,4,56,7,8,9];
+
+ListEvery() {
+  List<int> inteiros = [0, 1, 2, 3, 4, 56, 7, 8, 9];
   bool resultado = inteiros.every((element) => element > 0);
   print("Os elementos são maiores que zero ? $resultado");
 }
 
-ListWheres(){
-  List<int> idades = [23,34,46,56];
+ListWheres() {
+  List<int> idades = [23, 34, 46, 56];
   print(idades.where((element) => element is int));
 }
-ListReduce(){
+
+ListReduce() {
   List<int> numerosPares = List.generate(6, (index) => index * 2);
   int resultado = numerosPares.reduce((value, element) => value + element);
   print("O resultado é $resultado");
 }
+
 void main() {
   listaForeach();
   ListExpand();
